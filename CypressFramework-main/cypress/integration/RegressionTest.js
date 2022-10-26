@@ -7,7 +7,7 @@ describe("Quales management test suites",  () => {
 
   it("verify user can log in successfully to Quales management app",  () => {
     cy.visit("http://tawdry-rule.surge.sh")
- // spied on sign in button
+ // spy on sign in button
     cy.get('.css-48p1y4 > .MuiButton-root')
     //click sign in
   .click();
