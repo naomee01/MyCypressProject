@@ -36,7 +36,7 @@ cy.viewport(1536, 960);
 
 cy.get('[data-testid="Title*"]')
 .type("API TESTING")
-
+cy.log ("The test is completed");
 
 
 
